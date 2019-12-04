@@ -16,9 +16,9 @@
         <div>
             <h3>Choose an author:</h3>
             <form method="get">
-                <input type="checkbox" name="author" value="Guillermo">Guillermo
-                <input type="checkbox" name="author" value="Edison">Edison
-                <input type="checkbox" name="author" value="Pedro">Pedro
+                <input type="checkbox" name="author" value="Guillermo">Guillermo<br>
+                <input type="checkbox" name="author" value="Edison">Edison<br>
+                <input type="checkbox" name="author" value="Pedro">Pedro<br>
                 <input type="submit" value="Save Authors">
             </form>
             <% String[] authors = request.getParameterValues("author");
