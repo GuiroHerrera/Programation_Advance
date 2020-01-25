@@ -1,0 +1,7 @@
+{
+  "name": "movil-demo",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
