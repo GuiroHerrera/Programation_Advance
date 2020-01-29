@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29709.97
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "EspeFuncional", "EspeFuncional\EspeFuncional.fsproj", "{27F7FBD4-41F2-48E3-BE82-C40D4D1A2559}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{27F7FBD4-41F2-48E3-BE82-C40D4D1A2559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27F7FBD4-41F2-48E3-BE82-C40D4D1A2559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27F7FBD4-41F2-48E3-BE82-C40D4D1A2559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27F7FBD4-41F2-48E3-BE82-C40D4D1A2559}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F3581F5-DC0F-40B0-B464-4950AA34BA5A}
+	EndGlobalSection
+EndGlobal
