@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Ionic App</title>
+
+  <base href="/" />
+
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="format-detection" content="telephone=no" />
+  <meta name="msapplication-tap-highlight" content="no" />
+
+  <link rel="icon" type="image/png" href="assets/icon/favicon.png" />
+
+  <!-- add to homescreen for ios -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+</head>
+
+<body>
+  
+<body>
+  <ion-card color="secondary">
+    <ion-row>
+      <ion-col size="1"></ion-col>
+      <ion-col size="10">
+        <img src="https://srvcas.espe.edu.ec/authenticationendpoint/images/Logo-MiESPE.png">
+      </ion-col>
+    </ion-row>
+    <div class="container" >
+      <ion-text color="primary">
+        <center>   <b> <h1>    Inicio <span>de Sesión</span></h1></b> </center>
+      </ion-text> 
+      <form class="" action="">                   
+          <!---Correo ESPE-->
+          <ion-text color="dark">
+            <h3> Correo Institucional</h3> 
+          </ion-text>
+          <ion-item>
+            <ion-input class="input" type="email" id="mail" name="mail" placeholder="pablito@espe.edu.ec" required autofocus></ion-input>
+          </ion-item>
+          <ion-text color="dark">
+            <h3> Contraseña</h3> 
+          </ion-text>
+          <ion-item>
+            <ion-input class="input" type="password" id="password" name="password" placeholder="contraseña" required autofocus></ion-input>
+          </ion-item>
+          <!---BOTONES-->
+            <p></p>
+            <ion-button ion-button color="primary" id="btnlog" >INGRESAR</ion-button>
+            <ion-button ion-button color="danger" type="reset">CANCELAR</ion-button>
+            <p></p>
+            <a href="registry.html">Registrarse</a>
+            <p></p>
+          
+      </form>
+    </div> 
+  </ion-card>
+  <app-root></app-root>
+</body background-color="secondary">
+</body>
+
+</html>
